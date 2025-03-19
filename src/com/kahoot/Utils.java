@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Utils {
 
-    public static int requestAnswer(int minimum, int maximum) {
+    public static int requestInput(int minimum, int maximum) {
         Scanner scanner = new Scanner(System.in);
         int input = -1;
         boolean isValidInput = false;
